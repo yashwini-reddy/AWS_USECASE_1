@@ -17,4 +17,4 @@ artifacts:
   discard-paths: yes     # Crucial: This tells CodeBuild to discard the leading '.' path from files in the artifact.
   # The artifact will be created as a zip by CodeBuild automatically when using 'files' and 'base-directory'.
   # The 'name' field below is optional, but good practice.
-  name: website_artifact # This is the name of the artifact produced (e.g., website_artifact.zip)
+  name: static_website_artifact # This is the name of the artifact produced (e.g., website_artifact.zip)
