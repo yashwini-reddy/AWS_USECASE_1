@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "static_website_bucket" {
-  bucket = "MyStaticWebsiteBucket1" # Unique bucket name
+  bucket = "my-bucket-static-website-hosting-usecase" # Unique bucket name
 
   website {
     index_document = "index.html"
